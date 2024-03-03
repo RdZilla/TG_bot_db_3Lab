@@ -8,6 +8,10 @@ A project on the discipline "Databases".
 
 > [!NOTE]
 > You must deploy the database on your system. The corresponding sql file with the database structure and test data is located in the "sql_structure_&_data" directory.
-> To work correctly, you need to make changes to the files "config_bot" and "config_sql".
-> - In the "config_bot" file, you must specify the Token of your previously created Telegram bot. (You can learn how to do this on the official Telegram website in the relevant documentation [here](https://core.telegram.org/bots#how-do-i-create-a-bot))
-> - В файле "config_sql" вы должны указать параметры подключения к вашей базе данных: host, user, password, port.
+> 
+> To work correctly, you need to make changes to the files **"config_bot"** and **"config_sql"**.
+> - In the **"config_bot"** file, you must specify the **Token** of your previously created Telegram bot, in the value of the ***"TOKEN"*** parameter. (You can learn how to do this on the official Telegram website in the relevant documentation **[here](https://core.telegram.org/bots#how-do-i-create-a-bot)**)
+> - In the **"config_sql"** file, you must specify the connection parameters to your database: ***host***, ***user***, ***password***, ***port***.
+
+> [!WARNING]
+> Create a database named ***db_py_book_shop***. You can choose **any other database name**, but **do not forget to specify** a new name in the **"config_sql"** file in the value of the ***"db_name"*** parameter.
