@@ -3,7 +3,7 @@
 ### Date: 24.05.2023
 
 A project on the discipline "Databases". 
--  This application is designed to manage the work of a Telegram bot. The Aiogram library is used to create and manage the bot. 
+-  This application is designed to manage the work of a Telegram bot and SQL database. The Aiogram library is used to create and manage the bot. 
 -  SQL queries are implemented in the Python programming language. The MySQL library is used to interact with the database.
 
 > [!NOTE]
